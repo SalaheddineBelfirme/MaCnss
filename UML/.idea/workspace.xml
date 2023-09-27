@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7cf0a0b-2b2b-4bb6-9710-5f90e1ab9b8e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Controller/Services/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Controller/AdminController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Controller/AgentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Controller/CnssFormController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Controller/MedicineController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Controller/PatientController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Controller/Services/CnssFormService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Controller/Services/EmailService$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Controller/Services/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/DAO/DAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/DAOimplementation/AdminDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/DAOimplementation/AgentDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/DAOimplementation/CnssFormDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/DAOimplementation/PatientDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Database/DBConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Models/DTO/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Models/DTO/Agent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Models/DTO/CnssForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Models/DTO/Patient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Models/DTO/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Models/DoctorType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Models/MedicalSummary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/Model/Models/Medicent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MaCNSS/target/classes/com/macnss/View/MaCNSS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaCNSS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaCNSS/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaCNSS/MaCNSS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MaCNSS/MaCNSS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Controller/CnssFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Controller/CnssFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Controller/MedicineController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Controller/MedicineController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Model/DAO/DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Model/DAO/DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Model/DAOimplementation/CnssFormDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Model/DAOimplementation/CnssFormDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Model/DAOimplementation/PatientDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/Model/DAOimplementation/PatientDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/View/MaCNSS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MaCNSS/src/com/macnss/View/MaCNSS.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
+  <component name="ProjectId" id="2Vu3brFptIdEPopJb8xM3XyT484" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging temp"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7cf0a0b-2b2b-4bb6-9710-5f90e1ab9b8e" name="Changes" comment="" />
+      <created>1695672214471</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695672214471</updated>
+    </task>
+    <servers />
+  </component>
+</project>
