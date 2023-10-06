@@ -24,7 +24,10 @@ public class AgentController {
         //admin.lgine(email,password).toString();
         if (agent.lgine(email,password)!= null) {
             //send email
-            String code = "2121";
+            String code = String.valueOf(Math.random());
+            if (code.length() >= 6) {
+                code = code.substring(0, 6);
+            }
             System.out.println("chek your email");
             EmailService.sendEmail(code,"your code",email);
             System.out.println("insert code");
@@ -34,12 +37,9 @@ public class AgentController {
                 return  true;
             }
 
-
-
         }else {
             System.out.println("try agine ");
         }
-
         return  false;
     }
 

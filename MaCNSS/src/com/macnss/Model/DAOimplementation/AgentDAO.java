@@ -12,7 +12,7 @@ import java.util.List;
 
 public class AgentDAO implements DAO<Agent>{
 
-    public Agent lgine(String email , String password) throws SQLException {
+    public Agent lgine(String email , String password) {
         Agent agent=null;
         String query = "select * from agent where email=? and password=?";
         try {

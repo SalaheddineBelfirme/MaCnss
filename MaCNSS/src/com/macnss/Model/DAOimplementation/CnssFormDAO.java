@@ -4,10 +4,12 @@ import com.macnss.Model.DAO.DAO;
 import com.macnss.Model.Database.DBConnection;
 import com.macnss.Model.Models.DTO.CnssForm;
 
+import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+import  java.util.ArrayList;
 
 public class CnssFormDAO implements DAO<CnssForm> {
     public CnssForm get(int id) {
@@ -76,6 +78,32 @@ public class CnssFormDAO implements DAO<CnssForm> {
             System.out.println(e.getMessage());
         }
         return false;
+    }
+    public List<CnssForm> getHestoriy(int id){
+
+        try {
+            Connection connection=DBConnection.getConnection();
+            String Reqest="select * from cnss_form where patient_number=? ";
+            try {
+                PreparedStatement preparedStatement=connection.prepareStatement(Reqest);
+                preparedStatement.setInt(1,id);
+                ResultSet resultSet=preparedStatement.executeQuery();
+                List<CnssForm> lsitFils=new ArrayList<CnssForm>();
+                while (resultSet.next()){
+                  CnssForm cnssForm=new CnssForm(resultSet.getInt("cnss_form_id"),resultSet.getInt("total_price"),resultSet.getInt("attachements_number"),resultSet.getString("status"),resultSet.getInt("patient_number"));
+                    lsitFils.add(cnssForm);
+                }
+                return lsitFils;
+            }catch (Exception e){
+                System.out.println(e.getMessage());
+                System.out.println("samtng was worng when get flis of patient");
+            }
+        }catch (Exception e){
+            System.out.println("smting was worng in connction");
+            System.out.println(e.getMessage());
+
+        }
+        return null ;
     }
 
 

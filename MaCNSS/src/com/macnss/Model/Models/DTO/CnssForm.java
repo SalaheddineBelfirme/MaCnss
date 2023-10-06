@@ -5,6 +5,17 @@ public class CnssForm {
     private float totalPrice;
     private int attachmentsNumber;
 
+    public CnssForm() {
+    }
+
+    public CnssForm(int id, float totalPrice, int attachmentsNumber, String status, int patientNumber) {
+        this.id = id;
+        this.totalPrice = totalPrice;
+        this.attachmentsNumber = attachmentsNumber;
+        this.status = status;
+        this.patientNumber = patientNumber;
+    }
+
     @Override
     public String toString() {
         return "CnssForm{" +
